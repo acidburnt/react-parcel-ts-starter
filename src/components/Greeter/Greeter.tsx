@@ -1,3 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export const Greeter = ({ name }: { name: string }) => <h1>Hello {name}!</h1>;
+const Header = styled.h1`
+  color: green;
+  background-color: gray;
+`;
+
+export const Greeter = ({ name }: { name: string }) => <Header>Hello {name}!</Header>;
