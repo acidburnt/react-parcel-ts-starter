@@ -12,5 +12,6 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };
